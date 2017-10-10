@@ -18,7 +18,7 @@ This design ensures loose coupling between the layers in the app's MVP-based arc
 
 This project follows Android architecture guidelines that are based on [MVP (Model View Presenter)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter). 
 
-Project has 3 packets related with MVP-based architecture:
+Project has 3 packages related with MVP-based architecture:
 - Model: contains classes that play the "Model" role in the Model-View-Presenter (MVP)
   pattern by defining an interface for providing data that will be
   acted upon by the "Presenter" and "View" layers in the MVP pattern.
@@ -32,7 +32,7 @@ Project has 3 packets related with MVP-based architecture:
  - View: contains classes that play the "View" role in the Model-View-Presenter
  (MVP) pattern. All fragments, activities etc are here
  
-The others packets: Data plays the role of "repository" layer that connects with service using retrofit and manage fields mapping. Injection implements dagger based dependency injection
+The others packages: Data plays the role of "repository" layer that connects with service using retrofit and manage fields mapping. Injection implements dagger based dependency injection
 
  Support libraries
 - RecyclerViews and CardViews 
