@@ -13,7 +13,11 @@ First of all, two interfaces that are required and provided by the layers in the
 This design ensures loose coupling between the layers in the app's MVP-based architecture.
 
 
-# Structure
+
+## Architecture
+
+This project follows Android architecture guidelines that are based on [MVP (Model View Presenter)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter). 
+
 Project has 3 packets related with MVP-based architecture:
 - Model: contains classes that play the "Model" role in the Model-View-Presenter (MVP)
   pattern by defining an interface for providing data that will be
@@ -52,9 +56,6 @@ Project has 3 packets related with MVP-based architecture:
 - Latest Android SDK Tools and build tools.
 
 
-## Architecture
-
-This project follows Android architecture guidelines that are based on [MVP (Model View Presenter)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter). Read more about them [here](https://github.com/ribot/android-guidelines/blob/master/architecture_guidelines/android_architecture.md).
 
 ### Tests
 
