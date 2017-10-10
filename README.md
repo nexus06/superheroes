@@ -14,7 +14,7 @@ This design ensures loose coupling between the layers in the app's MVP-based arc
 
 
 # Structure
-Project has 4 main packets, 3 of them related with MVP-based architecture:
+Project has 3 packets related with MVP-based architecture:
 - Model: contains classes that play the "Model" role in the Model-View-Presenter (MVP)
   pattern by defining an interface for providing data that will be
   acted upon by the "Presenter" and "View" layers in the MVP pattern.
@@ -24,8 +24,9 @@ Project has 4 main packets, 3 of them related with MVP-based architecture:
   retrieves data from the Model (e.g., Profile) and
   display in the View (e.g., heroes list).
   Implements  MVP.ProvidedPresenterOps and
-  MVP.RequiredPresenterOps to decouple the MVP layers.
-
+  MVP.RequiredPresenterOps to decouple the MVP layers.  
+ - View: contains classes that play the "View" role in the Model-View-Presenter
+ (MVP) pattern. All fragments, activities etc are here
 
  Support libraries
 - RecyclerViews and CardViews 
