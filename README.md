@@ -27,6 +27,8 @@ Project has 3 packets related with MVP-based architecture:
   MVP.RequiredPresenterOps to decouple the MVP layers.  
  - View: contains classes that play the "View" role in the Model-View-Presenter
  (MVP) pattern. All fragments, activities etc are here
+ 
+ - Data plays the role of "repository" layer that connects with service using retrofit and manage fields mapping. Injection implements dagger based dependency injection
 
  Support libraries
 - RecyclerViews and CardViews 
