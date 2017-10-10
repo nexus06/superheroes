@@ -94,49 +94,4 @@ The following code analysis tools are set up on this project:
 ./gradlew checkstyle
 ```
 
-### The check task
-
-To ensure that your code is valid and stable use check: 
-
-```
-./gradlew check
-```
-
-This will run all the code analysis tools and unit tests in the following order:
-
-![Check Diagram](images/check-task-diagram.png)
- 
-## Distribution
-
-The project can be distributed using either [Crashlytics](http://support.crashlytics.com/knowledgebase/articles/388925-beta-distributions-with-gradle) or the [Google Play Store](https://github.com/Triple-T/gradle-play-publisher).
-
-### Crashlytics
-
-You can also use Fabric's Crashlytics for distributing beta releases. Remember to add your fabric
-account details to `app/src/fabric.properties`.
-
-To upload a release build to Crashlytics run:
-
-```
-./gradlew assembleRelease crashlyticsUploadDistributionRelease
-```
-
-## License
-
-```
-    Copyright 2015 Ribot Ltd.
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
-```
-
 
